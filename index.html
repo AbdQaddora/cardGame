@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src = "javaScript/script.js"></script>
+</head>
+
+<body>
+    <h1 id="RemainingTime">45</h1>
+    <div id = "gameOver">
+        <h1>Game Over</h1>
+        <button id = "refresh" class = "red" onclick="refresh()">try again</button>
+    </div>
+    <div id = "win">
+        <h1 id = "greenH1">score : <span id = "finishTime"></span> second</h1>
+        <button id = "refresh" class = "green" onclick="refresh()">try again</button>
+    </div>
+    <section class="memory-game">
+        <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="img/iug.png"s/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="img/iug.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+
+        <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="img/sun.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="img/sun.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+
+        <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="img/ball.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="img/ball.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+
+        <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="img/food.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="img/food.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+
+        <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="img/man.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="img/man.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+
+        <div class="memory-card" data-framework="react">
+            <img class="front-face" src="img/mobile.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+        <div class="memory-card" data-framework="react">
+            <img class="front-face" src="img/mobile.png"/>
+            <img class="back-face" src="img/back.png"/>
+        </div>
+    </section>
+    <script src = "javaScript/card.js"></script>
+</body>
+
+</html>
